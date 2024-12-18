@@ -1,0 +1,48 @@
+*{
+    background-color: darkslategray;
+    color: aliceblue;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    float: right;
+
+    gap: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    right: 40%;
+    font-size: 180%;
+    color: aliceblue;
+}
+.head{
+    border-bottom: 1px solid white;
+}
+.jumbotron {
+    margin: 20px;
+
+}
+p{
+    color: yellow;
+    display: block;
+    justify-content: center;
+}
